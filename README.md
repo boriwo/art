@@ -5,8 +5,6 @@ Simple command line tool for generating ASCII art. It's really just counting pix
 
 ![](ascii.png)
 
-![](ascii2.png)
-
 Common usage:
 
 ```
@@ -36,3 +34,6 @@ All parameters and their default values:
   -debug=false: if set to true some performance data will be printed
   -exact=false: require exact match for shade
 ```
+
+![](ascii2.png)
+
