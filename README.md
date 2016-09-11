@@ -5,6 +5,8 @@ Simple command line tool for generating ASCII art. It's really just counting pix
 
 ![](ascii.png)
 
+![](ascii2.png)
+
 Common usage:
 
 ```
