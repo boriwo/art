@@ -34,8 +34,8 @@ import (
 	"sync"
 	"time"
 
-	"code.google.com/p/freetype-go/freetype"
-	"code.google.com/p/freetype-go/freetype/truetype"
+	"github.com/golang/freetype"
+	"github.com/golang/freetype/truetype"
 )
 
 const (
@@ -364,7 +364,7 @@ func getRGBA(str string, font *truetype.Font) *image.RGBA {
 	c.SetClip(rgba.Bounds())
 	c.SetDst(rgba)
 	c.SetSrc(image.Black)
-	c.SetHinting(freetype.NoHinting)
+	//c.SetHinting(freetype.NoHinting)
 	pt := freetype.Pt(0, 18)
 	_, err := c.DrawString(str, pt)
 	if err != nil {
