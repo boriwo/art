@@ -1,7 +1,6 @@
 art
 ===
 
-
 Simple command line tool for generating ASCII art. It's really just counting pixels.
 
 ![](ascii.png)
